@@ -1,0 +1,80 @@
+@charset "utf-8";
+body {
+	height: 100%;
+    margin: 0px;
+    padding: 0px;
+	background-image: url('hatter1_gradiens.jpg');
+
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-size: 1.5em;
+  background-color: #cf8761;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #fde3c0;
+}
+
+.foresz {
+	margin-top: 30px;
+}
+
+.tablazat_belso {
+  margin-top:0px;
+  width:100%;
+}
+
+h1 {
+	margin: 0;
+	margin-left: 10px;
+	padding: 0;
+	font-size: 450%
+}
+h2 {
+	margin-left: 40px;
+	font-size: 150%;
+}
+hr {	
+	width: 98%;
+	border: 1px solid gray;
+	background-color: gray;
+}
+p {
+	margin-left: 50px;
+  font-size:120%;
+
+}
+
+div.lab {
+	margin-top: 4%;
+	display: flex;
+    justify-content: center;
+}
+
+.tablazat {
+    display: flex;
+    justify-content: center;
+}
+
+
+@media only screen and (max-width: 600px) {
+  body {
+	font-size: 60%;
+  }
+}
